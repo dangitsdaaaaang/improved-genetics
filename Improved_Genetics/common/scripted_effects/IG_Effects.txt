@@ -1,25 +1,21 @@
 int_6_flag_tgr = {
 	random_list = {
 		164 = {
-			add_character_flag = why2
 		add_character_flag = int_AA
 		add_character_flag = int_BB
 		add_character_flag = int_CC
 		}
 		12 = {
-			add_character_flag = why3
 		add_character_flag = int_AA
 		add_character_flag = int_BB
 		add_character_flag = int_Cc
 		}
 		12 = {
-			add_character_flag = why4
 		add_character_flag = int_AA
 		add_character_flag = int_Bb
 		add_character_flag = int_CC
 		}
 		12 = {
-			add_character_flag = why5
 		add_character_flag = int_Aa
 		add_character_flag = int_BB
 		add_character_flag = int_CC
@@ -1063,6 +1059,7 @@ hgt_1_flag_tgr = {
 		4 = {
 		add_character_flag = hgt_cc
 		}
+	}
 	random_list = {
 		2 =  { 
 		add_character_flag = hgt_Dd
@@ -1086,7 +1083,6 @@ hgt_1_flag_tgr = {
 		4 = {
 		add_character_flag = hgt_ff
 		}
-	}
 	}
 }
 

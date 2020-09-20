@@ -20,3 +20,9 @@ trait_tiny_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is extrem
 trait_short:0 "Short"
 trait_short_desc:1 "This character is significantly shorter than average.."
 trait_short_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is significantly shorter than average.."
+
+
+## Blood Legacy
+IG_NOBLE_VEINS:0 "The rate of positive mutations is increased significantly."
+IG_CONVERGENT_BLOOD:0 "Positive traits will often reinforce to produce better versions of those traits."
+IG_RESILIENT_BLOOD:0 "The rate of negative mutations is decreased significantly."

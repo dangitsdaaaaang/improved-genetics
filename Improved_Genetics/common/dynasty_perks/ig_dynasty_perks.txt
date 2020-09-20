@@ -1,0 +1,17 @@
+﻿# BLOOD LEGACIES
+blood_legacy_4 = { # Architected Ancestry
+	legacy = blood_legacy_track
+
+	cost = dynasty_legacy_tier_4_cost
+
+	traits = {
+		beauty_good_1 = 100
+		intellect_good_1 = 100
+		physique_good_1 = 100
+		fecund = 50
+		albino = 50
+		giant = 10
+		dwarf = 1
+		scaly = 1
+	}
+}

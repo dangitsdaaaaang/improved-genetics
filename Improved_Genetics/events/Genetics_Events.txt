@@ -1115,7 +1115,10 @@ IG.100 = {
 		## 3. Mutation
 			if = {
 				limit = {
-					has_dynasty_perk = blood_legacy_1
+					exists = dynasty
+					dynasty = {
+						has_dynasty_perk = blood_legacy_1
+					}
 				}
 				if = {
 					limit = {
@@ -1124,7 +1127,9 @@ IG.100 = {
 					random_list = {
 						0 = {
 							modifier = {
-								has_dynasty_perk = blood_legacy_1
+								dynasty = {
+									has_dynasty_perk = blood_legacy_1
+								}
 								add = 25
 							}
 							add_character_flag = is_blood_legacy_working_as_intended
@@ -1144,7 +1149,10 @@ IG.100 = {
 					random_list = {
 						0 = {
 							modifier = {
-								has_dynasty_perk = blood_legacy_1
+								exists = dynasty
+								dynasty = {
+									has_dynasty_perk = blood_legacy_1
+								}
 								add = 25
 							}
 							remove_character_flag = int_Bb
@@ -1163,7 +1171,10 @@ IG.100 = {
 					random_list = {
 						0 = {
 							modifier = {
-								has_dynasty_perk = blood_legacy_1
+								exists = dynasty
+								dynasty = {
+									has_dynasty_perk = blood_legacy_1
+								}
 								add = 25
 							}
 							remove_character_flag = int_Aa
@@ -1196,7 +1207,10 @@ IG.100 = {
 				random_list = {
 					35 = {
 						modifier = {
-							has_dynasty_perk = blood_legacy_2
+								exists = dynasty
+							dynasty = {
+									has_dynasty_perk = blood_legacy_2
+								}
 							add = 20
 						}
 						add_trait = intellect_good_3
@@ -1226,14 +1240,20 @@ IG.100 = {
 				random_list = {
 					1 = {
 						modifier = {
-							has_dynasty_perk = blood_legacy_2
+								exists = dynasty
+							dynasty = {
+									has_dynasty_perk = blood_legacy_2
+								}
 							add = 5
 						}
 						add_trait = intellect_good_3
 					}
 					17 = {
 						modifier = {
-							has_dynasty_perk = blood_legacy_2
+								exists = dynasty
+							dynasty = {
+									has_dynasty_perk = blood_legacy_2
+								}
 							add = 10
 						}
 						add_trait = intellect_good_2
@@ -1262,14 +1282,18 @@ IG.100 = {
 				random_list = {
 					4 = {
 						modifier = {
-							has_dynasty_perk = blood_legacy_2
+								exists = dynasty
+							dynasty = {
+									has_dynasty_perk = blood_legacy_2
+								}
 							add = 20
 						}
 						modifier = {
+								exists = dynasty
 							dynasty = {
 								exists = var:blood_legacy_4_intellect_good_1
 							}
-							add = 20
+							add = 90
 						}
 						add_trait = intellect_good_1
 					}
@@ -1294,10 +1318,11 @@ IG.100 = {
 				random_list = {
 					0 = {
 						modifier = {
+								exists = dynasty
 							dynasty = {
 								exists = var:blood_legacy_4_intellect_good_1
 							}
-							add = 10
+							add = 20
 						}
 						add_trait = intellect_good_1
 					}
@@ -1983,7 +2008,10 @@ IG.101 = {
 		## 3. Mutation
 			if = {
 				limit = {
-					has_dynasty_perk = blood_legacy_1
+					exists = dynasty
+					dynasty = {
+						has_dynasty_perk = blood_legacy_1
+					}
 				}
 				if = {
 					limit = {
@@ -1992,7 +2020,10 @@ IG.101 = {
 					random_list = {
 						0 = {
 							modifier = {
-								has_dynasty_perk = blood_legacy_1
+								exists = dynasty
+								dynasty = {
+									has_dynasty_perk = blood_legacy_1
+								}
 								add = 25
 							}
 							add_character_flag = is_blood_legacy_working_as_intended
@@ -2012,7 +2043,10 @@ IG.101 = {
 					random_list = {
 						0 = {
 							modifier = {
-								has_dynasty_perk = blood_legacy_1
+								exists = dynasty
+								dynasty = {
+									has_dynasty_perk = blood_legacy_1
+								}
 								add = 25
 							}
 							remove_character_flag = str_Bb
@@ -2031,7 +2065,10 @@ IG.101 = {
 					random_list = {
 						0 = {
 							modifier = {
-								has_dynasty_perk = blood_legacy_1
+								exists = dynasty
+								dynasty = {
+									has_dynasty_perk = blood_legacy_1
+								}
 								add = 25
 							}
 							remove_character_flag = str_Aa
@@ -2064,7 +2101,10 @@ IG.101 = {
 				random_list = {
 					35 = {
 						modifier = {
-							has_dynasty_perk = blood_legacy_2
+								exists = dynasty
+							dynasty = {
+									has_dynasty_perk = blood_legacy_2
+								}
 							add = 20
 						}
 						add_trait = physique_good_3
@@ -2094,14 +2134,20 @@ IG.101 = {
 				random_list = {
 					1 = {
 						modifier = {
-							has_dynasty_perk = blood_legacy_2
+								exists = dynasty
+							dynasty = {
+									has_dynasty_perk = blood_legacy_2
+								}
 							add = 5
 						}
 						add_trait = physique_good_3
 					}
 					17 = {
 						modifier = {
-							has_dynasty_perk = blood_legacy_2
+								exists = dynasty
+							dynasty = {
+									has_dynasty_perk = blood_legacy_2
+								}
 							add = 10
 						}
 						add_trait = physique_good_2
@@ -2130,14 +2176,18 @@ IG.101 = {
 				random_list = {
 					4 = {
 						modifier = {
-							has_dynasty_perk = blood_legacy_2
+								exists = dynasty
+							dynasty = {
+									has_dynasty_perk = blood_legacy_2
+								}
 							add = 20
 						}
 						modifier = {
+								exists = dynasty
 							dynasty = {
 								exists = var:blood_legacy_4_physique_good_1
 							}
-							add = 20
+							add = 90
 						}
 						add_trait = physique_good_1
 					}
@@ -2162,10 +2212,11 @@ IG.101 = {
 				random_list = {
 					0 = {
 						modifier = {
+							exists = dynasty
 							dynasty = {
 								exists = var:blood_legacy_4_physique_good_1
 							}
-							add = 10
+							add = 20
 						}
 						add_trait = physique_good_1
 					}
@@ -2493,7 +2544,7 @@ IG.102 = {
 
 		if = {
 			limit = {
-				father = {
+				real_father = {
 					is_close_family_of_compare_character_trigger = yes
 				}
 				
@@ -2502,7 +2553,7 @@ IG.102 = {
 		}
 		if = {
 			limit = {
-				father = {
+				real_father = {
 					is_close_or_extended_family_of = scope:compare_character
 				}
 			}
@@ -2511,12 +2562,12 @@ IG.102 = {
 
 		if = {
 			limit = {
+				exists = dynasty
 				dynasty = {
 					exists = var:blood_legacy_4_scaly
 				}
 			}
-			add_character_flag = bloodlegacyworksd
-			change_variable = { name = mutation add = 75 }
+			change_variable = { name = mutation add = 150 }
 		}
 
 		if = {
@@ -2530,22 +2581,6 @@ IG.102 = {
 							value = var:mutation
 						}
 					}
-					remove_character_flag = scl_aa
-					add_character_flag = scl_Aa
-					change_variable = { name = alleles add = 1 }
-				}
-				997 = {
-
-				}
-			}
-		}
-
-		if = {
-			limit = {
-				has_character_flag = scl_aa
-			}
-			random_list = {
-				3 = {
 					remove_character_flag = scl_aa
 					add_character_flag = scl_Aa
 					change_variable = { name = alleles add = 1 }
@@ -2584,6 +2619,7 @@ IG.103 = {
 						NOR = {
 							has_character_flag = att_AA
 							has_character_flag = att_Aa
+
 							has_character_flag = att_aa
 							has_character_flag = att_BB
 							has_character_flag = att_Bb
@@ -3168,7 +3204,10 @@ IG.103 = {
 		## 3. Mutation
 			if = {
 				limit = {
-					has_dynasty_perk = blood_legacy_1
+					exists = dynasty
+					dynasty = {
+							has_dynasty_perk = blood_legacy_1
+						}
 				}
 				if = {
 					limit = {
@@ -3177,7 +3216,10 @@ IG.103 = {
 					random_list = {
 						0 = {
 							modifier = {
-								has_dynasty_perk = blood_legacy_1
+								exists = dynasty
+								dynasty = {
+									has_dynasty_perk = blood_legacy_1
+								}
 								add = 25
 							}
 							add_character_flag = is_blood_legacy_working_as_intended
@@ -3197,7 +3239,10 @@ IG.103 = {
 					random_list = {
 						0 = {
 							modifier = {
-								has_dynasty_perk = blood_legacy_1
+								exists = dynasty
+								dynasty = {
+									has_dynasty_perk = blood_legacy_1
+								}
 								add = 25
 							}
 							remove_character_flag = att_Bb
@@ -3216,7 +3261,10 @@ IG.103 = {
 					random_list = {
 						0 = {
 							modifier = {
-								has_dynasty_perk = blood_legacy_1
+								exists = dynasty
+								dynasty = {
+									has_dynasty_perk = blood_legacy_1
+								}
 								add = 25
 							}
 							remove_character_flag = att_Aa
@@ -3249,7 +3297,10 @@ IG.103 = {
 				random_list = {
 					35 = {
 						modifier = {
-							has_dynasty_perk = blood_legacy_2
+							exists = dynasty
+							dynasty = {
+									has_dynasty_perk = blood_legacy_2
+								}
 							add = 20
 						}
 						add_trait = beauty_good_3
@@ -3279,14 +3330,20 @@ IG.103 = {
 				random_list = {
 					1 = {
 						modifier = {
-							has_dynasty_perk = blood_legacy_2
+							exists = dynasty
+							dynasty = {
+									has_dynasty_perk = blood_legacy_2
+								}
 							add = 5
 						}
 						add_trait = beauty_good_3
 					}
 					17 = {
 						modifier = {
-							has_dynasty_perk = blood_legacy_2
+							exists = dynasty
+							dynasty = {
+									has_dynasty_perk = blood_legacy_2
+								}
 							add = 10
 						}
 						add_trait = beauty_good_2
@@ -3315,14 +3372,18 @@ IG.103 = {
 				random_list = {
 					4 = {
 						modifier = {
-							has_dynasty_perk = blood_legacy_2
+							exists = dynasty
+							dynasty = {
+									has_dynasty_perk = blood_legacy_2
+								}
 							add = 20
 						}
 						modifier = {
+								exists = dynasty
 							dynasty = {
 								exists = var:blood_legacy_4_beauty_good_1
 							}
-							add = 20
+							add = 90
 						}
 						add_trait = beauty_good_1
 					}
@@ -3347,10 +3408,11 @@ IG.103 = {
 				random_list = {
 					0 = {
 						modifier = {
+							exists = dynasty
 							dynasty = {
-								exists = var:blood_legacy_4_beauty_good_1
+									exists = var:blood_legacy_4_beauty_good_1
 							}
-							add = 10
+							add = 15
 						}
 						add_trait = beauty_good_1
 					}
@@ -3659,12 +3721,13 @@ IG.104 = {
 
 				if = {
 					limit = {
+						exists = dynasty
 						dynasty = {
 							exists = var:blood_legacy_4_giant
 						}
 					}
 					add_character_flag = bloodlegacyworks
-					change_variable = { name = mutation add = 80 }
+					change_variable = { name = mutation add = 150 }
 				}
 
 			if = {
@@ -4246,7 +4309,6 @@ IG.106 = {
 					}
 					
 				}
-				add_character_flag = test97
 				change_variable = { name = mutation multiply = 5 } ## should increase to 15*3 = 45 with the second one! ~5% chance for a mutation.
 			}
 			if = {
@@ -4255,7 +4317,6 @@ IG.106 = {
 						is_close_or_extended_family_of = scope:compare_character
 					}
 				}
-				add_character_flag = test99
 				change_variable = { name = mutation multiply = 3 }
 			}
 			if = {
@@ -4319,7 +4380,10 @@ IG.106 = {
 								value = var:mutation
 								if = {
 									limit = {
-										has_dynasty_perk = blood_legacy_3
+										exists = dynasty
+										dynasty = {
+											has_dynasty_perk = blood_legacy_3
+										}
 									}
 									multiply = 0.05
 								}
@@ -4346,7 +4410,10 @@ IG.106 = {
 								value = var:mutation
 								if = {
 									limit = {
-										has_dynasty_perk = blood_legacy_3
+										exists = dynasty
+										dynasty = {
+											has_dynasty_perk = blood_legacy_3
+										}
 									}
 									multiply = 0.05
 								}
@@ -4993,7 +5060,10 @@ IG.107 = {
 								value = var:mutation
 								if = {
 									limit = {
-										has_dynasty_perk = blood_legacy_3
+										exists = dynasty
+										dynasty = {
+											has_dynasty_perk = blood_legacy_3
+										}
 									}
 									multiply = 0.05
 								}
@@ -5020,7 +5090,10 @@ IG.107 = {
 								value = var:mutation
 								if = {
 									limit = {
-										has_dynasty_perk = blood_legacy_3
+										exists = dynasty
+										dynasty = {
+											has_dynasty_perk = blood_legacy_3
+										}
 									}
 									multiply = 0.05
 								}
@@ -5671,7 +5744,10 @@ IG.108 = {
 								value = var:mutation
 								if = {
 									limit = {
-										has_dynasty_perk = blood_legacy_3
+										exists = dynasty
+										dynasty = {
+											has_dynasty_perk = blood_legacy_3
+										}
 									}
 									multiply = 0.05
 								}
@@ -5698,7 +5774,10 @@ IG.108 = {
 								value = var:mutation
 								if = {
 									limit = {
-										has_dynasty_perk = blood_legacy_3
+										exists = dynasty
+										dynasty = {
+											has_dynasty_perk = blood_legacy_3
+										}
 									}
 									multiply = 0.05
 								}
@@ -6349,7 +6428,10 @@ IG.109 = {
 								value = var:mutation
 								if = {
 									limit = {
-										has_dynasty_perk = blood_legacy_3
+										exists = dynasty
+										dynasty = {
+											has_dynasty_perk = blood_legacy_3
+										}
 									}
 									multiply = 0.05
 								}
@@ -6376,7 +6458,10 @@ IG.109 = {
 								value = var:mutation
 								if = {
 									limit = {
-										has_dynasty_perk = blood_legacy_3
+										exists = dynasty
+										dynasty = {
+											has_dynasty_perk = blood_legacy_3
+										}
 									}
 									multiply = 0.05
 								}
@@ -6667,12 +6752,13 @@ IG.110 = {
 
 		if = {
 			limit = {
+				exists = dynasty
 				dynasty = {
 					exists = var:blood_legacy_4_dwarf
 				}
 			}
 			add_character_flag = bloodlegacyworksd
-			change_variable = { name = mutation add = 75 }
+			change_variable = { name = mutation add = 150 }
 		}
 
 		if = {
@@ -7223,12 +7309,13 @@ IG.112 = {
 
 		if = {
 			limit = {
+				exists = dynasty
 				dynasty = {
 					exists = var:blood_legacy_4_albino
 				}
 			}
 			add_character_flag = bloodlegacyworksal
-			change_variable = { name = mutation add = 100 }
+			change_variable = { name = mutation add = 200 }
 		}
 
 		if = {
@@ -7888,7 +7975,10 @@ IG.113 = {
 								value = var:mutation
 								if = {
 									limit = {
-										has_dynasty_perk = blood_legacy_3
+										exists = dynasty
+										dynasty = {
+											has_dynasty_perk = blood_legacy_3
+										}
 									}
 									multiply = 0.05
 								}
@@ -7915,7 +8005,10 @@ IG.113 = {
 								value = var:mutation
 								if = {
 									limit = {
-										has_dynasty_perk = blood_legacy_3
+										exists = dynasty
+										dynasty = {
+											has_dynasty_perk = blood_legacy_3
+										}
 									}
 									multiply = 0.05
 								}
